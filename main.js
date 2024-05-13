@@ -12,3 +12,7 @@ function countdown() {
     }, 1000);
 }
 countdown();
+const buonAnno = document.getElementById("buon-anno");
+buonAnno.addEventListener('click', function(){
+    alert("buon anno!");
+})
